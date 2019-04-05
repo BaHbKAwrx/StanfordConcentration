@@ -18,7 +18,7 @@ class Concentration {
             let card = Card()
             cards += [card, card]
         }
-        // TODO: Shuffle cards
+        cards.shuffle()
     }
     
     func chooseCard(at index: Int) {
