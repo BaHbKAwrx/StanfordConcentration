@@ -12,6 +12,8 @@
 		620193B8225664400089A292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620193B6225664400089A292 /* Main.storyboard */; };
 		620193BA225664410089A292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620193B9225664410089A292 /* Assets.xcassets */; };
 		620193BD225664410089A292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620193BB225664410089A292 /* LaunchScreen.storyboard */; };
+		62981C4A22566E8200B2FD58 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62981C4922566E8200B2FD58 /* Concentration.swift */; };
+		62981C4C22566E9000B2FD58 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62981C4B22566E9000B2FD58 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		620193B9225664410089A292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		620193BC225664410089A292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		620193BE225664410089A292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62981C4922566E8200B2FD58 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		62981C4B22566E9000B2FD58 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				620193B2225664400089A292 /* AppDelegate.swift */,
 				620193B4225664400089A292 /* ViewController.swift */,
+				62981C4922566E8200B2FD58 /* Concentration.swift */,
+				62981C4B22566E9000B2FD58 /* Card.swift */,
 				620193B6225664400089A292 /* Main.storyboard */,
 				620193B9225664410089A292 /* Assets.xcassets */,
 				620193BB225664410089A292 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				620193B5225664400089A292 /* ViewController.swift in Sources */,
 				620193B3225664400089A292 /* AppDelegate.swift in Sources */,
+				62981C4A22566E8200B2FD58 /* Concentration.swift in Sources */,
+				62981C4C22566E9000B2FD58 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8SHT3568Q;
 				INFOPLIST_FILE = ConcentrationGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8SHT3568Q;
 				INFOPLIST_FILE = ConcentrationGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
