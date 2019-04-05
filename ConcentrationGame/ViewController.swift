@@ -21,7 +21,7 @@ class ViewController: UIViewController {
             flipCountLabel.text = "Flips: \(flipCount)"
         }
     }
-    var emojiArr = ["😈","👹","👻","💀","🎃","👽"]
+    var emojiArr = ["😈","👹","👻","💀","🎃","👽","🤡","🍭","☠️","🧠"]
     var emojiDict = [Int:String]()
     
     // MARK: - VC lifecycle
