@@ -41,6 +41,13 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func startNewGame(_ sender: UIButton) {
+        flipCount = 0
+        game = Concentration(numberOfCardPairs: (self.buttonsArr.count + 1) / 2)
+        emojiArr = ["😈","👹","👻","💀","🎃","👽","🤡","🍭","☠️","🧠"]
+        updateViewFromModel()
+    }
+    
     // MARK: - methods
     
     //synchronising modelData with our interface
