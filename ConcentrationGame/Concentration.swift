@@ -15,6 +15,7 @@ class Concentration {
     var cards = [Card]()
     var indexOfTheOnlyOneFacedUpCard: Int?
     var gameTheme: Theme
+    var flipCount = 0
     
     init(numberOfCardPairs: Int) {
         
@@ -30,6 +31,7 @@ class Concentration {
     
     func chooseCard(at index: Int) {
         if !cards[index].isMatched {
+            flipCount += 1
             if let matchIndex = indexOfTheOnlyOneFacedUpCard, matchIndex != index {
                 if cards[matchIndex].identifier == cards[index].identifier {
                     cards[matchIndex].isMatched = true
