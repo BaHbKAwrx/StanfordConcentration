@@ -10,7 +10,7 @@ import Foundation
 
 class Concentration {
     
-    static var avaliableThemes = [Theme(themeEmojies: ["🐶","🐱","🐭","🐰","🦊","🐮","🦁","🐯","🐨","🐼","🐻","🐷"]),Theme(themeEmojies: ["😈","👹","👻","💀","🎃","👽","🤡","🍭","☠️","🧠"]),Theme(themeEmojies: ["😃","😂","😜","🥳","😍","😇","😡","🥶","😵","🤢"]),Theme(themeEmojies: ["🍏","🍐","🍊","🍋","🍌","🍑","🍒","🍓","🍇","🍉"]),Theme(themeEmojies: ["⚽️","🏀","🏈","⚾️","🎾","🎱","🥏","🏉","🏐","🏓"]),Theme(themeEmojies: ["🚗","🚕","🚙","🚌","🏎","🚓","🚑","🚒","🚛","🏍"])]
+    static var avaliableThemes = [Theme(themeName: "Animals", themeEmojies: ["🐶","🐱","🐭","🐰","🦊","🐮","🦁","🐯","🐨","🐼","🐻","🐷"]),Theme(themeName: "Halloween", themeEmojies: ["😈","👹","👻","💀","🎃","👽","🤡","🍭","☠️","🧠"]),Theme(themeName: "Faces", themeEmojies: ["😃","😂","😜","🥳","😍","😇","😡","🥶","😵","🤢"]),Theme(themeName: "Food", themeEmojies: ["🍏","🍐","🍊","🍋","🍌","🍑","🍒","🍓","🍇","🍉"]),Theme(themeName: "Sports", themeEmojies: ["⚽️","🏀","🏈","⚾️","🎾","🎱","🥏","🏉","🏐","🏓"]),Theme(themeName: "Vehicles", themeEmojies: ["🚗","🚕","🚙","🚌","🏎","🚓","🚑","🚒","🚛","🏍"])]
     
     var cards = [Card]()
     var indexOfTheOnlyOneFacedUpCard: Int?

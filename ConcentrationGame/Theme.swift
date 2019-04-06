@@ -10,6 +10,7 @@ import Foundation
 
 struct Theme {
     
+    var themeName: String
     var themeEmojies: [String]
     
 }
