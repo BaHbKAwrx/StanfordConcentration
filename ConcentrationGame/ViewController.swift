@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     // MARK: - outlets
     @IBOutlet weak var flipCountLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var buttonsArr: [UIButton]!
     
     // MARK: - properties
@@ -58,6 +59,7 @@ class ViewController: UIViewController {
             }
         }
         flipCountLabel.text = "Flips: \(game.flipCount)"
+        scoreLabel.text = "Score: \(game.gameScore)"
     }
     
     //setting emoji for flipped card

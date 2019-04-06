@@ -216,12 +216,20 @@
                                     <action selector="startNewGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AE5-pD-wHw"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="xMq-TN-rsk">
+                                <rect key="frame" x="16" y="746" width="113" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="flipCountLabel" destination="N6o-bo-xnO" id="3cQ-FN-eoC"/>
+                        <outlet property="scoreLabel" destination="xMq-TN-rsk" id="P3O-dg-vwF"/>
                         <outletCollection property="buttonsArr" destination="tI1-6W-9oZ" collectionClass="NSMutableArray" id="EXN-Yu-ptm"/>
                         <outletCollection property="buttonsArr" destination="n2m-ba-MQB" collectionClass="NSMutableArray" id="BXH-It-GZT"/>
                         <outletCollection property="buttonsArr" destination="bc1-dp-NQ6" collectionClass="NSMutableArray" id="5M7-Kv-mea"/>
