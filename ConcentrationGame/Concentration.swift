@@ -10,10 +10,17 @@ import Foundation
 
 class Concentration {
     
+    static var avaliableThemes = [Theme(themeEmojies: ["🐶","🐱","🐭","🐰","🦊","🐮","🦁","🐯","🐨","🐼","🐻","🐷"]),Theme(themeEmojies: ["😈","👹","👻","💀","🎃","👽","🤡","🍭","☠️","🧠"]),Theme(themeEmojies: ["😃","😂","😜","🥳","😍","😇","😡","🥶","😵","🤢"]),Theme(themeEmojies: ["🍏","🍐","🍊","🍋","🍌","🍑","🍒","🍓","🍇","🍉"]),Theme(themeEmojies: ["⚽️","🏀","🏈","⚾️","🎾","🎱","🥏","🏉","🏐","🏓"]),Theme(themeEmojies: ["🚗","🚕","🚙","🚌","🏎","🚓","🚑","🚒","🚛","🏍"])]
+    
     var cards = [Card]()
     var indexOfTheOnlyOneFacedUpCard: Int?
+    var gameTheme: Theme
     
     init(numberOfCardPairs: Int) {
+        
+        let randomThemeIndex = Int(arc4random())%(Concentration.avaliableThemes.count)
+        self.gameTheme = Concentration.avaliableThemes[randomThemeIndex]
+        
         for _ in 1...numberOfCardPairs {
             let card = Card()
             cards += [card, card]

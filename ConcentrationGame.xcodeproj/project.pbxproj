@@ -14,6 +14,7 @@
 		620193BD225664410089A292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620193BB225664410089A292 /* LaunchScreen.storyboard */; };
 		62981C4A22566E8200B2FD58 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62981C4922566E8200B2FD58 /* Concentration.swift */; };
 		62981C4C22566E9000B2FD58 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62981C4B22566E9000B2FD58 /* Card.swift */; };
+		62981C4E2259009600B2FD58 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62981C4D2259009600B2FD58 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		620193BE225664410089A292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62981C4922566E8200B2FD58 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		62981C4B22566E9000B2FD58 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		62981C4D2259009600B2FD58 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				620193B4225664400089A292 /* ViewController.swift */,
 				62981C4922566E8200B2FD58 /* Concentration.swift */,
 				62981C4B22566E9000B2FD58 /* Card.swift */,
+				62981C4D2259009600B2FD58 /* Theme.swift */,
 				620193B6225664400089A292 /* Main.storyboard */,
 				620193B9225664410089A292 /* Assets.xcassets */,
 				620193BB225664410089A292 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				620193B5225664400089A292 /* ViewController.swift in Sources */,
 				620193B3225664400089A292 /* AppDelegate.swift in Sources */,
+				62981C4E2259009600B2FD58 /* Theme.swift in Sources */,
 				62981C4A22566E8200B2FD58 /* Concentration.swift in Sources */,
 				62981C4C22566E9000B2FD58 /* Card.swift in Sources */,
 			);

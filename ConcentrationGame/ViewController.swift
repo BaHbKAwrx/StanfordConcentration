@@ -21,13 +21,14 @@ class ViewController: UIViewController {
             flipCountLabel.text = "Flips: \(flipCount)"
         }
     }
-    var emojiArr = ["😈","👹","👻","💀","🎃","👽","🤡","🍭","☠️","🧠"]
+    var emojiArr = [String]()
     var emojiDict = [Int:String]()
     
     // MARK: - VC lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        emojiArr = game.gameTheme.themeEmojies
     }
 
     // MARK: - buttonActions
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
     @IBAction func startNewGame(_ sender: UIButton) {
         flipCount = 0
         game = Concentration(numberOfCardPairs: (self.buttonsArr.count + 1) / 2)
-        emojiArr = ["😈","👹","👻","💀","🎃","👽","🤡","🍭","☠️","🧠"]
+        emojiArr = game.gameTheme.themeEmojies
         updateViewFromModel()
     }
     
